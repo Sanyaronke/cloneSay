@@ -1,0 +1,211 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.reseau {
+  margin-right: 10px;
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 105px;
+  right: 0;
+  overflow: hidden;
+  z-index: 9000;
+  background-color: #4fb3e6;
+  border-radius: 40px;
+  transition: all 0.5s;
+}
+.reseau:hover {
+  background-color: #4cacdb;
+}
+.reseau .bloc-principale {
+  position: absolute;
+  bottom: 0;
+  height: 240px;
+}
+.reseau .bloc-principale div {
+  color: #ffffff;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+.reseau .bloc-principale div a {
+  text-decoration: none;
+  color: white;
+}
+.reseau .fb {
+  background-color: #3B5998;
+}
+.reseau .fb:hover {
+  background-color: #3a5591;
+}
+.reseau .in {
+  background-color: #007BB5;
+}
+.reseau .in:hover {
+  background-color: #0276ac;
+}
+.reseau .msg {
+  background-color: #4a89c4;
+}
+.reseau .msg:hover {
+  background-color: #4682b9;
+}
+.reseau .social_play {
+  font-size: 35px !important;
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+  color: #464545;
+}
+
+h3 {
+  line-height: 30px;
+}
+
+p {
+  font-size: 16px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  font-weight: 700;
+  color: #7a7a7a;
+}
+
+.btn-default {
+  color: white;
+  font-size: 17px;
+  padding: 8px 30px;
+  transition: all 0.5s;
+  text-decoration: none;
+  border-radius: 50px 5px;
+  background-color: #157eb3;
+}
+.btn-default:hover {
+  color: white;
+  background-color: #384f5a;
+  margin-top: -10px;
+  transition: all 0.5s;
+}
+
+header nav {
+  height: 130px;
+}
+header nav .nav-link {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+header nav .nav-link:hover {
+  color: #40A8F5 !important;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.presentation-card {
+  background-color: #d4edff;
+  min-height: 69vh;
+}
+.presentation-card .message {
+  text-align: center;
+  position: relative;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.company-struct {
+  min-height: 100vh;
+}
+.company-struct .card-struct {
+  min-height: 420px;
+}
+.company-struct .card-struct .message {
+  text-align: center;
+  position: relative;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.hdp-resolution {
+  text-align: center;
+}
+.hdp-resolution .icons {
+  text-align: center;
+}
+.hdp-resolution .icons span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+  color: #40A8F5;
+}
+
+.ecosytemes img {
+  width: 120px;
+  height: 120px;
+}
+
+.allies img {
+  width: 300px;
+  height: 150px;
+}
+
+.partenaires {
+  height: 150px;
+}
+.partenaires span {
+  font-size: 60px;
+  cursor: pointer;
+  color: #157eb3;
+}
+.partenaires picture {
+  margin-top: 25px;
+}
+.partenaires img {
+  position: relative;
+  width: 200px;
+  height: 100px;
+  padding: 5px 30px;
+  left: 0px;
+  transition: all 3s ease;
+}
+
+.footer-info {
+  width: 100%;
+  min-height: 50vh;
+  background-color: #2f3e5f;
+  display: flex;
+  align-items: center;
+}
+.footer-info h3 {
+  color: #40A8F5;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.footer-info p {
+  color: #cacaca !important;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #27334e;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+footer a {
+  color: #40A8F5;
+  font-size: 35px;
+  padding: 0px 15px;
+  text-decoration: none;
+}

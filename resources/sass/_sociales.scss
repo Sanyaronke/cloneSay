@@ -1,0 +1,60 @@
+// fichier css contenant tous les eleent lier au reseau sociau
+// fichier css contenant tous les eleent lier au reseau sociau
+.reseau {
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 105px;
+    right: 0;
+    overflow: hidden;
+    z-index: 9000;
+    background-color: #4fb3e6;
+    border-radius: 40px;
+    transition: all .5s;
+
+    &:hover {
+        background-color: #4cacdb;
+    }
+    .bloc-principale{
+        position: absolute;
+        bottom:0;
+        height: 240px;
+
+        div{
+            color: #ffffff;
+            width: 60px;
+            height: 60px;
+            @include display-flex;
+            font-size: 18px;
+
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+
+    .fb {
+        background-color: #3B5998;
+        &:hover {
+            background-color: #3a5591;
+        }
+    }
+    .in {
+        background-color: #007BB5;
+        &:hover {
+            background-color: #0276ac;
+        }
+    }
+    .msg{
+        background-color: #4a89c4;
+        &:hover {
+            background-color: #4682b9;
+        }
+    }
+    .social_play{
+        font-size: 35px !important;
+        cursor: pointer;
+    }
+}
